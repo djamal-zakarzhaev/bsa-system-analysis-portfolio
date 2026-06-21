@@ -1,0 +1,133 @@
+﻿
+      <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+      <head>
+        <meta charset='utf-8'>
+        <title>Converted from Markdown</title>
+        <!--[if gte mso 9]>
+        <xml>
+          <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotPromptForConvert/>
+            <w:DoNotShowInsertAsIcon/>
+          </w:WordDocument>
+        </xml>
+        <![endif]-->
+        <style>
+          @page {
+            size: A4;
+            margin: 2.54cm;
+          }
+          body { 
+            font-family: 'Times New Roman', serif; 
+            font-size: 12pt;
+            line-height: 1.5; 
+            margin: 0;
+            padding: 0;
+            color: #000;
+          }
+          h1 { font-size: 18pt; font-weight: bold; margin: 12pt 0 6pt 0; }
+          h2 { font-size: 16pt; font-weight: bold; margin: 12pt 0 6pt 0; }
+          h3 { font-size: 14pt; font-weight: bold; margin: 12pt 0 6pt 0; }
+          p { margin: 6pt 0; }
+          code { 
+            font-family: 'Courier New', monospace;
+            background-color: #f5f5f5;
+            padding: 2pt;
+            border: 1pt solid #ddd;
+          }
+          pre { 
+            font-family: 'Courier New', monospace;
+            background-color: #f5f5f5;
+            padding: 6pt;
+            border: 1pt solid #ddd;
+            margin: 6pt 0;
+            white-space: pre-wrap;
+          }
+          blockquote { 
+            border-left: 3pt solid #ccc;
+            margin: 6pt 0;
+            padding-left: 12pt;
+            font-style: italic;
+          }
+          table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 6pt 0;
+          }
+          th, td {
+            border: 1pt solid #000;
+            padding: 3pt 6pt;
+            text-align: left;
+          }
+          th {
+            background-color: #f0f0f0;
+            font-weight: bold;
+          }
+          ul, ol {
+            margin: 6pt 0;
+            padding-left: 24pt;
+          }
+          li {
+            margin: 3pt 0;
+          }
+        </style>
+      </head>
+      <body>
+        <h1>ОТЧЁТ</h1>
+<p>об обсуждении бизнес-процессов барбершопа</p>
+<p><strong>Дата обсуждения:</strong> 11.10.2025<br><strong>Место проведения:</strong> онлайн<br><strong>Формат обсуждения:</strong> мозговой штурм<br><strong>Область рассмотрения:</strong> to be<br><strong>Участники:</strong> Клиент, Менеджер, Барбер, IT-поддержка; никнеймы: joelleet, regenaho  </p>
+<p><strong>Владелец, ведущий:</strong> joelleet<br><strong>Делопроизводитель:</strong> regenaho<br><strong>Секретарь:</strong> —  </p>
+<h2>Повестка собрания:</h2>
+<ol>
+<li>Избрание ведущего, делопроизводителя, секретаря.  </li>
+<li>Обсуждение бизнес‑процесса: Сбор отзывов (REV).</li>
+</ol>
+<h3>2.1. Сбор отзывов</h3>
+<p><strong>Тема:</strong> Механизм сбора и обработки отзывов клиентов<br><strong>Цель:</strong> Уточнить шаги процесса, роли, входы/выходы и точки уведомлений<br><strong>ID процесса:</strong> REV  </p>
+<h3>Обсуждаемые вопросы и принятые решения:</h3>
+<table>
+<thead>
+<tr>
+<th>Вопрос</th>
+<th>Ответ</th>
+<th>Принятое решение</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Когда запрашивать отзыв?</td>
+<td>После оказания услуги.</td>
+<td>Автоматическая отправка запроса через уведомление.</td>
+</tr>
+<tr>
+<td>Какие данные в отзыве?</td>
+<td>Оценка, текст, фото (опционально).</td>
+<td>Сделать поля: рейтинг 1-5, комментарий, фото.</td>
+</tr>
+<tr>
+<td>Кто модерирует отзывы?</td>
+<td>Менеджер.</td>
+<td>Внедрить модерацию перед публикацией.</td>
+</tr>
+<tr>
+<td>Как барбер видит отзывы?</td>
+<td>В личном кабинете.</td>
+<td>Доступ к отзывам по своим услугам.</td>
+</tr>
+<tr>
+<td>Как использовать отзывы?</td>
+<td>Для улучшения и маркетинга.</td>
+<td>Интеграция с отчетами и сайтом.</td>
+</tr>
+</tbody></table>
+<h3>Риски / проблемы:</h3>
+<p>• Фальшивые отзывы.<br>• Низкий отклик клиентов.<br>• Отрицательные отзывы без модерации.  </p>
+<h3>Решения / итоги:</h3>
+<p>• Модерация и верификация.<br>• Стимулирование отзывов (скидки).<br>• Анализ отзывов в отчетах.  </p>
+<h3>Связанные артефакты:</h3>
+<p>• ex01_BRS_mpr (REV)<br>• ex00_BRS_roles (Клиент, Барбер)<br>• ex00_BRS_external_data_flows (поток отзывов)  </p>
+<p><strong>Автор(ы):</strong> joelleet, regenaho</p>
+
+      </body>
+      </html>
+    

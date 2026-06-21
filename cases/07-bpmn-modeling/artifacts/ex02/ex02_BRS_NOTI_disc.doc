@@ -1,0 +1,133 @@
+﻿
+      <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+      <head>
+        <meta charset='utf-8'>
+        <title>Converted from Markdown</title>
+        <!--[if gte mso 9]>
+        <xml>
+          <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotPromptForConvert/>
+            <w:DoNotShowInsertAsIcon/>
+          </w:WordDocument>
+        </xml>
+        <![endif]-->
+        <style>
+          @page {
+            size: A4;
+            margin: 2.54cm;
+          }
+          body { 
+            font-family: 'Times New Roman', serif; 
+            font-size: 12pt;
+            line-height: 1.5; 
+            margin: 0;
+            padding: 0;
+            color: #000;
+          }
+          h1 { font-size: 18pt; font-weight: bold; margin: 12pt 0 6pt 0; }
+          h2 { font-size: 16pt; font-weight: bold; margin: 12pt 0 6pt 0; }
+          h3 { font-size: 14pt; font-weight: bold; margin: 12pt 0 6pt 0; }
+          p { margin: 6pt 0; }
+          code { 
+            font-family: 'Courier New', monospace;
+            background-color: #f5f5f5;
+            padding: 2pt;
+            border: 1pt solid #ddd;
+          }
+          pre { 
+            font-family: 'Courier New', monospace;
+            background-color: #f5f5f5;
+            padding: 6pt;
+            border: 1pt solid #ddd;
+            margin: 6pt 0;
+            white-space: pre-wrap;
+          }
+          blockquote { 
+            border-left: 3pt solid #ccc;
+            margin: 6pt 0;
+            padding-left: 12pt;
+            font-style: italic;
+          }
+          table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 6pt 0;
+          }
+          th, td {
+            border: 1pt solid #000;
+            padding: 3pt 6pt;
+            text-align: left;
+          }
+          th {
+            background-color: #f0f0f0;
+            font-weight: bold;
+          }
+          ul, ol {
+            margin: 6pt 0;
+            padding-left: 24pt;
+          }
+          li {
+            margin: 3pt 0;
+          }
+        </style>
+      </head>
+      <body>
+        <h1>ОТЧЁТ</h1>
+<p>об обсуждении бизнес-процессов барбершопа</p>
+<p><strong>Дата обсуждения:</strong> 11.10.2025<br><strong>Место проведения:</strong> онлайн<br><strong>Формат обсуждения:</strong> мозговой штурм<br><strong>Область рассмотрения:</strong> to be<br><strong>Участники:</strong> Клиент, Менеджер, Барбер, IT-поддержка; никнеймы: joelleet, regenaho  </p>
+<p><strong>Владелец, ведущий:</strong> joelleet<br><strong>Делопроизводитель:</strong> regenaho<br><strong>Секретарь:</strong> —  </p>
+<h2>Повестка собрания:</h2>
+<ol>
+<li>Избрание ведущего, делопроизводителя, секретаря.  </li>
+<li>Обсуждение бизнес‑процесса: Управление уведомлениями (NOTI).</li>
+</ol>
+<h3>2.1. Управление уведомлениями</h3>
+<p><strong>Тема:</strong> Механизм отправки уведомлений клиентам и персоналу<br><strong>Цель:</strong> Уточнить шаги процесса, роли, входы/выходы и точки уведомлений<br><strong>ID процесса:</strong> NOTI  </p>
+<h3>Обсуждаемые вопросы и принятые решения:</h3>
+<table>
+<thead>
+<tr>
+<th>Вопрос</th>
+<th>Ответ</th>
+<th>Принятое решение</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Какие каналы уведомлений использовать?</td>
+<td>SMS, email, мессенджеры (Telegram, WhatsApp).</td>
+<td>Позволить выбор канала клиентом; fallback на email.</td>
+</tr>
+<tr>
+<td>Когда отправлять уведомления?</td>
+<td>Подтверждение записи, напоминания, изменения.</td>
+<td>Настроить расписание: сразу, за 24ч, за 2ч.</td>
+</tr>
+<tr>
+<td>Кто настраивает шаблоны?</td>
+<td>Менеджер.</td>
+<td>Добавить редактор шаблонов в админ-панели.</td>
+</tr>
+<tr>
+<td>Как отслеживать доставку?</td>
+<td>Система логирует статус.</td>
+<td>Внедрить мониторинг и альтернативные каналы при сбое.</td>
+</tr>
+<tr>
+<td>Можно ли отключить уведомления?</td>
+<td>Клиент может в профиле.</td>
+<td>Добавить опцию отписки с соблюдением согласий.</td>
+</tr>
+</tbody></table>
+<h3>Риски / проблемы:</h3>
+<p>• Недоставка уведомлений.<br>• Спам и раздражение клиентов.<br>• Ошибки в шаблонах.  </p>
+<h3>Решения / итоги:</h3>
+<p>• Мониторинг доставки и fallback.<br>• Персонализация и опции отписки.<br>• Валидация шаблонов перед использованием.  </p>
+<h3>Связанные артефакты:</h3>
+<p>• ex01_BRS_mpr (NOTI)<br>• ex00_BRS_roles (Менеджер, Клиент)<br>• ex00_BRS_external_data_flows (поток уведомлений)  </p>
+<p><strong>Автор(ы):</strong> joelleet, regenaho</p>
+
+      </body>
+      </html>
+    

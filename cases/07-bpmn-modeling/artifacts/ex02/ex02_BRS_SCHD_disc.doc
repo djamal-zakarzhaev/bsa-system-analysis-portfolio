@@ -1,0 +1,147 @@
+﻿
+      <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+      <head>
+        <meta charset='utf-8'>
+        <title>Converted from Markdown</title>
+        <!--[if gte mso 9]>
+        <xml>
+          <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotPromptForConvert/>
+            <w:DoNotShowInsertAsIcon/>
+          </w:WordDocument>
+        </xml>
+        <![endif]-->
+        <style>
+          @page {
+            size: A4;
+            margin: 2.54cm;
+          }
+          body { 
+            font-family: 'Times New Roman', serif; 
+            font-size: 12pt;
+            line-height: 1.5; 
+            margin: 0;
+            padding: 0;
+            color: #000;
+          }
+          h1 { font-size: 18pt; font-weight: bold; margin: 12pt 0 6pt 0; }
+          h2 { font-size: 16pt; font-weight: bold; margin: 12pt 0 6pt 0; }
+          h3 { font-size: 14pt; font-weight: bold; margin: 12pt 0 6pt 0; }
+          p { margin: 6pt 0; }
+          code { 
+            font-family: 'Courier New', monospace;
+            background-color: #f5f5f5;
+            padding: 2pt;
+            border: 1pt solid #ddd;
+          }
+          pre { 
+            font-family: 'Courier New', monospace;
+            background-color: #f5f5f5;
+            padding: 6pt;
+            border: 1pt solid #ddd;
+            margin: 6pt 0;
+            white-space: pre-wrap;
+          }
+          blockquote { 
+            border-left: 3pt solid #ccc;
+            margin: 6pt 0;
+            padding-left: 12pt;
+            font-style: italic;
+          }
+          table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 6pt 0;
+          }
+          th, td {
+            border: 1pt solid #000;
+            padding: 3pt 6pt;
+            text-align: left;
+          }
+          th {
+            background-color: #f0f0f0;
+            font-weight: bold;
+          }
+          ul, ol {
+            margin: 6pt 0;
+            padding-left: 24pt;
+          }
+          li {
+            margin: 3pt 0;
+          }
+        </style>
+      </head>
+      <body>
+        <h1>ОТЧЁТ</h1>
+<p>об обсуждении бизнес-процессов барбершопа</p>
+<p><strong>Дата обсуждения:</strong> 11.10.2025<br><strong>Место проведения:</strong> онлайн<br><strong>Формат обсуждения:</strong> мозговой штурм<br><strong>Область рассмотрения:</strong> to be<br><strong>Участники:</strong> Клиент, Менеджер, Барбер, IT-поддержка; никнеймы: joelleet, regenaho  </p>
+<p><strong>Владелец, ведущий:</strong> joelleet<br><strong>Делопроизводитель:</strong> regenaho<br><strong>Секретарь:</strong> —  </p>
+<h2>Повестка собрания:</h2>
+<ol>
+<li>Избрание ведущего, делопроизводителя, секретаря.  </li>
+<li>Обсуждение бизнес-процесса: Управление расписанием мастеров (SCHD).</li>
+</ol>
+<h3>2.1. Управление расписанием мастеров</h3>
+<p><strong>Тема:</strong> Механизм формирования и редактирования расписания мастеров<br><strong>Цель:</strong> Уточнить шаги процесса, роли, входы/выходы и точки уведомлений<br><strong>ID процесса:</strong> SCHD  </p>
+<h3>Обсуждаемые вопросы и принятые решения:</h3>
+<table>
+<thead>
+<tr>
+<th>Вопрос</th>
+<th>Ответ</th>
+<th>Принятое решение</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Как формируется расписание мастеров?</td>
+<td>Менеджер создает расписание на неделю/месяц, указывая рабочие часы, выходные и отпуск.</td>
+<td>Реализовать модуль редактирования расписания с проверкой на пересечения.</td>
+</tr>
+<tr>
+<td>Могут ли мастера редактировать своё расписание?</td>
+<td>Мастера могут вносить изменения только в части замены смены после согласования с менеджером.</td>
+<td>Добавить функцию заявки на изменение, которая утверждается менеджером.</td>
+</tr>
+<tr>
+<td>Как учитываются отпуска и болезни?</td>
+<td>Мастера подают заявку в системе, менеджер подтверждает.</td>
+<td>Ввести категории «отпуск» и «временная недоступность» в расписание.</td>
+</tr>
+<tr>
+<td>Как избежать пересечений с записями клиентов?</td>
+<td>Система проверяет новый график с уже созданными записями.</td>
+<td>Настроить блокировку пересечений и уведомления о конфликтах.</td>
+</tr>
+<tr>
+<td>Что делать при замене мастера?</td>
+<td>Менеджер назначает замену, клиент уведомляется автоматически.</td>
+<td>Реализовать автоуведомление через SMS/мессенджер.</td>
+</tr>
+</tbody></table>
+<h3>Риски / проблемы:</h3>
+<ul>
+<li>Конфликты расписания при ручном редактировании.  </li>
+<li>Отсутствие актуальной информации об отпусках и болезнях.  </li>
+<li>Перегруз мастеров в пиковые часы.  </li>
+<li>Ошибки при заменах без уведомления клиентов.</li>
+</ul>
+<h3>Решения / итоги:</h3>
+<ul>
+<li>Автоматизировать проверку пересечений при редактировании расписания.  </li>
+<li>Ввести роли и уровни доступа (мастер — заявка, менеджер — утверждение).  </li>
+<li>Настроить систему уведомлений при изменениях в графике.  </li>
+<li>Сохранять историю всех изменений для аудита.</li>
+</ul>
+<h3>Связанные артефакты:</h3>
+<ul>
+<li>ex01_BRS_mpr (SCHD)  </li>
+<li>ex00_BRS_roles (Менеджер, Барбер)  </li>
+<li>ex00_BRS_external_data_flows (поток данных между Менеджером и Системой)</li>
+</ul>
+<p><strong>Автор(ы):</strong> joelleet, regenaho</p>
+
+      </body>
+      </html>
+    
